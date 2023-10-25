@@ -676,7 +676,8 @@
         fetch('./index.md')
         .then(response => response.text())
         .then(text => 
-        document.getElementById('md').innerHTML = marked.parse(text))
+        document.getElementById('md').innerHTML = 
+        fmarked.parse(text))
     </script>
 
 <!-- END OF VERSTKA -->
